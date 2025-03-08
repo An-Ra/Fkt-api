@@ -34,11 +34,11 @@
 
 | #  | Scenario                      | Expected Response     |
 |----|--------------------------------|----------------------|
-| ✅ 1 | Submit valid report           | `200 OK`             |
-| ❌ 2 | Missing required fields       | `400 Bad Request`    |
-| ❌ 3 | Invalid data type             | `400 Bad Request`    |
-| ❌ 4 | Missing token                 | `401 Unauthorized`   |
-| ❌ 5 | Invalid category              | `404 Not Found`      |
+| ✅ 1 | Submit valid report           | `2xx`                |
+| ❌ 2 | Missing required fields       | `4xx`                |
+| ❌ 3 | Invalid data type             | `4xx`                |
+| ❌ 4 | Missing token                 | `4xx`                |
+| ❌ 5 | Invalid category              | `4xx`                |
 
 
 ```
